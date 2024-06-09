@@ -104,6 +104,40 @@ body{
     font-weight: 400;
 }
 
+/* pagina dos projetos */
+
+.projetos {
+    padding: 5% 15%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+    display: flex;
+    
+}
+
+.projetos__desenvolvimento {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-bottom: 2px solid #F97300;
+    padding-bottom: 10px;
+}
+
+.projetos__desenvolvimento__titulo {
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+}
+
+.projetos__desenvolvimento__descricao {
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+}
+
+.projetos__desenvolvimento__imagens__img {
+    width: 400px;
+}
+
+
 @media (max-width: 1200px) {
     .cabecalho {
         padding: 10%;
@@ -120,5 +154,13 @@ body{
 
     .apresentacao__conteudo {
         width: auto;
+    }
+
+    .apresentacao__links__navegacao {
+        width: 68%;
+    }
+
+    .projetos {
+        flex-direction: column;
     }
 }
