@@ -112,7 +112,7 @@ body{
 /* pagina dos projetos */
 
 .projetos {
-    padding: 5% 15% 25%;
+    padding: 5% 15% 20%;
     align-items: center;
     justify-content: space-between;
     gap: 82px;
@@ -175,6 +175,7 @@ body{
     }
 
     .projetos {
+        padding: 5% 8%;
         flex-direction: column;
     }
 
