@@ -117,7 +117,8 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 50%;
+    width: 50vw;
+    height: auto;
 }
 
 .rodape {
@@ -184,7 +185,8 @@ body {
     }
 
     .apresentacao__imagem {
-        width: 50%;
+        width: 50vw;
+        height: auto;
     }
 
     .apresentacao__conteudo {
@@ -226,7 +228,8 @@ body {
     }
 
     .apresentacao__imagem {
-        width: 50%;
+        width: 50vw;
+        height: auto;
     }
 
     .apresentacao__conteudo {
@@ -266,7 +269,8 @@ body {
     }
 
     .apresentacao__imagem {
-        width: 50%;
+        width: 50vw;
+        height: auto;
     }
 
     .apresentacao__conteudo {
@@ -305,7 +309,8 @@ body {
     }
 
     .apresentacao__imagem {
-        width: 50%;
+        width: 50vw;
+        height: auto;
     }
 
     .apresentacao__conteudo {
